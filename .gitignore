@@ -20,6 +20,3 @@ test/
 
 # Linked backend folders
 deno/**/backend
-
-
-k6
