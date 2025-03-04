@@ -1,0 +1,19 @@
+{
+  "tasks": {
+    "start": "deno run --allow-read --allow-write --allow-env --allow-ffi --allow-net --allow-run --allow-sys src/index.ts",
+    "dev": "deno run --allow-read --allow-write --allow-env --allow-ffi --allow-net --allow-run --allow-sys --watch src/index.ts"
+  },
+  "imports": {
+    "@fastify/busboy": "npm:@fastify/busboy@^3.1.1",
+    "@fastify/multipart": "npm:@fastify/multipart@^9.0.2",
+    "fastify": "npm:fastify@^5.1.0",
+    "@types/node": "npm:@types/node@^22.10.7",
+    "sharp": "npm:sharp@0.33.5",
+    "typescript": "npm:typescript@^5.7.2",
+    "@std/path": "jsr:@std/path@^1.0.8",
+    "@std/io": "jsr:@std/io@^0.225.2"
+  },
+  "compilerOptions": {
+    "strict": true
+  }
+}

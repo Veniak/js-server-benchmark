@@ -1,0 +1,25 @@
+# File Converter
+*.docx
+*.pdf
+*.xls
+*.xlsx
+*.odt
+*.ods
+*.odp
+*.pptx
+*.ppt
+
+# Image Converter
+*.png
+*.jpg
+*.jpeg
+
+dist/
+node_modules/
+test/
+
+# Linked backend folders
+deno/**/backend
+
+
+k6

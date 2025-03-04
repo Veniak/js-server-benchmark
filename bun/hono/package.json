@@ -1,0 +1,19 @@
+{
+  "name": "hono",
+  "type": "module",
+  "scripts": {
+    "start": "bun src/index.ts",
+    "dev": "bun src/index.ts -w"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.13.7",
+    "hono": "^4.6.11",
+    "image-scaler": "../../backends/bun/"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.16"
+  },
+  "engines": {
+    "bun": ">=1.2"
+  }
+}

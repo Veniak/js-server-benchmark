@@ -1,0 +1,21 @@
+{
+  "tasks": {
+    "start": "deno run --allow-read --allow-write --allow-env --allow-ffi --allow-net --allow-run src/index.ts",
+    "dev": "deno run --allow-read --allow-write --allow-env --allow-ffi --allow-net --allow-run --watch src/index.ts"
+  },
+  "imports": {
+    "@types/express": "npm:@types/express@^5.0.0",
+    "@types/multer": "npm:@types/multer@^1.4.12",
+    "express": "npm:express@^4.21.2",
+    "multer": "npm:multer@^1.4.5-lts.1",
+    "@types/node": "npm:@types/node@^22.10.7",
+    "sharp": "npm:sharp@0.33.5",
+    "typescript": "npm:typescript@^5.7.2",
+    "@std/path": "jsr:@std/path@^1.0.8",
+    "@std/io": "jsr:@std/io@^0.225.2"
+  },
+  "compilerOptions": {
+    "strict": true
+  },
+  "nodeModulesDir": "auto"
+}

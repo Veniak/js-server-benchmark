@@ -1,0 +1,17 @@
+{
+  "tasks": {
+    "start": "deno run --allow-read --allow-write --allow-env --allow-ffi --allow-net --allow-run --allow-sys src/index.ts",
+    "dev": "deno run --allow-read --allow-write --allow-env --allow-ffi --allow-net --allow-run --allow-sys --watch src/index.ts"
+  },
+  "imports": {
+    "@hapi/hapi": "npm:@hapi/hapi@^21.3.12",
+    "@types/node": "npm:@types/node@^22.10.7",
+    "sharp": "npm:sharp@0.33.5",
+    "typescript": "npm:typescript@^5.7.2",
+    "@std/path": "jsr:@std/path@^1.0.8",
+    "@std/io": "jsr:@std/io@^0.225.2"
+  },
+  "compilerOptions": {
+    "strict": true
+  }
+}
